@@ -1,0 +1,78 @@
+# .NET
+*.obj
+*.bin
+*.user
+*.suo
+*.tmp
+*.vscode
+*.vs
+*.resharper
+*.resharper.user
+_ReSharper.*
+_ReSharper*/
+*.sln.iml
+*.ide
+
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider files
+.idea/
+*.sln.iml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+bin-x64/
+bin-x86/
+publish/
+*.nuget/
+*.paket/
+*.paket.restore/
+*.paket.template/
+*.paket-files/
+*.paket.local/
+*.cake.bin/
+*.xproj
+packages/
+*.DS_Store
+.nuget/
+*.dotSettings
+*.config.user
+*.jfm
+*.jfm.msbuild
+*.jfm.user
+
+# Visual Studio Code
+.vscode/
+
+# Windows folder config file
+Thumbs.db
+
+# macOS folder config files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux Trash folder which might appear on any partition or disk
+.Trash-*/
+
+# JetBrains Rider
+.idea/
+
+# Rider files
+*.sln.iml
+*.ide
+
+# Resharper
+_ReSharper*/
+
+# Package files
+*.nupkg
