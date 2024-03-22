@@ -2,15 +2,9 @@
 Console.WriteLine("Hello, World!");
 
 // string firstName = "              BOb         sagar ";
-string firstName = "Sagar_Reyzon";
-// string lastName = "Smith";
-// Console.WriteLine(firstName.Trim(' '));
+string firstName = " Sagar     Reyzon   ";
 
-// Console.WriteLine(firstName.TrimStart(' '));
-Console.WriteLine(firstName);
-
-firstName = firstName.Trim('_');
-// Console.WriteLine($"Hello, {firstName.Trim(' ')} ! ");
+// The Trim() method removes all the whitespaces in the front as wellas back wee also have TrimStart() and TrimEnd() to remove whitespaces from the start and end respectively
 Console.WriteLine($"{firstName} {firstName.Length}");
 
 
