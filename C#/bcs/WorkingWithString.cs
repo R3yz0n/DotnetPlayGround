@@ -21,6 +21,20 @@ public class WorkingWithString
         string sayHello = "Hello World!";
         // Console.WriteLine(sayHello);
         sayHello = sayHello.Replace("Hello", "Greetings");
-        // Console.WriteLine(sayHello.StartsWith('g'));
+
+
+        var name = "<name>";
+        // var name = "sagar";
+        // Console.WriteLine($"Hello {name}!");
+
+
+
+
+        var names = new[] { "<name>", "Felipe", "Emillia" };
+        System.Console.WriteLine(names);
+        foreach (var name in names)
+        {
+            Console.WriteLine($"Hello {name.ToUpper()}!");
+        }
     }
 }
