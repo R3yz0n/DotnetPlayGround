@@ -23,7 +23,7 @@ public class WorkingWithString
         sayHello = sayHello.Replace("Hello", "Greetings");
 
 
-        var name = "<name>";
+        // var name = "<name>";
         // var name = "sagar";
         // Console.WriteLine($"Hello {name}!");
 
