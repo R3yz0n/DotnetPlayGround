@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Sagar@123"
+    volumes:
+      - ./data:/var/opt/mssql
+# Server=localhost;Database=MyProject;User Id=sa;Password=Sagar@123;
