@@ -3,7 +3,11 @@ System.Console.WriteLine("hello");
 System.Console.WriteLine(string.Empty);
 System.Console.WriteLine("hello");
 string s = "sagar";
-System.Console.WriteLine(s);
+int[] arr = { 1, 2, 3 };
+
+
+System.Console.WriteLine(s.Length);
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,10 +27,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+
 
 // Needs to be deleted
 
