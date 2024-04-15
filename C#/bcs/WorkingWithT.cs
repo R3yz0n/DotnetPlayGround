@@ -12,16 +12,12 @@ public class WorkingWithT
 
         System.Console.WriteLine(names[0]);
 
-        System.Int32 xd = 10;
         foreach (var name in names)
         {
             System.Console.WriteLine(name);
         }
 
-        object x = 10;
-        System.Console.WriteLine(typeof(object));
-        System.Console.WriteLine(x.GetType());
-        System.Console.WriteLine(typeof(string));
+
 
 
 
